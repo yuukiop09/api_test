@@ -5,7 +5,7 @@
 $this->breadcrumbs = array(
     'Store',
 );
-
+echo 'dsfdsfsdfsdf';
 $this->menu = array(
     array('label' => Yii::t('AweCrud.app', 'Create') . ' ' . Member::label(), 'icon' => 'plus', 'url' => array('create')),
     array('label' => Yii::t('AweCrud.app', 'Manage'), 'icon' => 'list-alt', 'url' => array('admin')),
